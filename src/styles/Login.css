@@ -1,0 +1,25 @@
+.fondo-login-derecha {
+    background-color: var(--color-verde_letra);
+}
+
+.color-principal-letra {
+    color: var(--color-verde_subtitulo);
+}
+
+.color-letra-form {
+    color: var(--color-verde_boton);
+}
+
+.boton-login {
+    background-color: var(--color-verde_letra);
+    border-radius: 2vh;
+    border: #C2C2C2;
+    padding: 1vh;
+    box-shadow: 1px 1px 5px gray;
+    color: var(--white);
+    
+}
+
+.boton-login:hover {
+    background-color: var(--color-verde_boton);
+}
