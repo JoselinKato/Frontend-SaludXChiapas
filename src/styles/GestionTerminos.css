@@ -1,0 +1,52 @@
+.gestion-page {
+  width: 100%;
+  min-height: 100vh;
+  /* El fondo de la página usará el gris claro global de body */
+}
+
+.gestion-header {
+  /* El color turquesa claro para la barra de cabecera */
+  background-color: var(--color-turquesa-claro);
+  color: var(--white);
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gestion-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.btn-retroceder {
+  background-color: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-right: 20px;
+  transition: background-color 0.2s;
+}
+
+.btn-retroceder:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Mantenemos el RGBA para el hover */
+}
+
+.gestion-content {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.sintomas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
